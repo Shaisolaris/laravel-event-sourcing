@@ -1,5 +1,7 @@
 # laravel-event-sourcing
 
+![CI](https://github.com/Shaisolaris/laravel-event-sourcing/actions/workflows/ci.yml/badge.svg)
+
 Laravel 11 event-sourced API implementing CQRS with Spatie Event Sourcing for an e-commerce order lifecycle. Features aggregate roots with state machine guards, event-driven projections for read models, reactive side effects (notifications, inventory), daily analytics projections, and a full event replay/audit endpoint.
 
 ## Stack
