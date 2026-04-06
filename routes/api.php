@@ -16,3 +16,4 @@ Route::prefix('orders')->group(function () {
     Route::post('/{uuid}/refund', [OrderController::class, 'refund']);
     Route::post('/{uuid}/notes', [OrderController::class, 'addNote']);
 });
+// Demo mode: seed data available via php artisan db:seed
