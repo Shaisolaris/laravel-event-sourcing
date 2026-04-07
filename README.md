@@ -1,5 +1,8 @@
 # laravel-event-sourcing
 
+
+Laravel event sourcing with Spatie, CQRS pattern, domain events, projectors, reactors, and aggregate roots.
+
 ## Quick Start
 
 ```bash
